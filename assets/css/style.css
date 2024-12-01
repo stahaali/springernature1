@@ -54,7 +54,7 @@ header.desktop-menu nav
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 header.desktop-menu nav ul
 {
