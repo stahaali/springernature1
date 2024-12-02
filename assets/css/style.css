@@ -1332,3 +1332,117 @@ section.gray-section.blog-section.learnmore-section .subheading
     border-color: #fff;
     margin: 0 0 25px;
 }
+
+/*commonbanner3*/
+
+section.commonbanner3
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/4.jpg') no-repeat;
+    background-size: cover;
+}
+section.commonbanner3 .absolute-center
+{
+    top:84%;
+}
+.publish-wrapper
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    padding: 19px 0px 34px;
+}
+.publish-wrapper a
+{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    text-decoration: none;
+}
+.publish-column
+{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    border-bottom-left-radius: 21px;
+    padding: 50px 20px 34px;
+    transition: 0.3s;
+}
+.publish-column .right-icon
+{
+    right: 37px;
+    bottom: 50px;
+}
+.publish-column .right-icon i
+{
+    border-color:#fff;
+    color:#fff;
+}
+.publish-column:hover .right-icon i
+{
+    background:#fff;
+    color:#025e8d;
+}
+.publish-column p
+{
+    color:#fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom:0px;
+}
+.backgrdound-green
+{
+    background:#84bd00;
+}
+.backgrdound-lightblue
+{
+    background: #0094b3;
+}
+.backgrdound-darkblue
+{
+    background: #025e8d;
+}
+
+/*learnpublishing-section*/
+
+section.learnpublishing-section
+{
+    position: relative;
+}
+.learnpublishing-column
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    padding:20px;
+    background:#fff;
+    border-bottom-left-radius: 25px;
+    transition: 0.3s;
+}
+.learnpublishing-column p
+{
+    font-family: 'DaytonaPro-Regular';
+    color: #444;
+    font-size: 21px;
+}
+.learnpublishing-wrapper a
+{
+    text-decoration: none;
+}
+.learnpublishing-column:hover .right-icon i
+{
+    color:#fff;
+    background:#025e8d;
+}
+.learnpublishing-column .right-icon .arrowright
+{
+    transform: rotate(313deg);
+}
+section.learnpublishing-section .subheading
+{
+    border-color: #fff;
+    margin-bottom: 25px;
+}
