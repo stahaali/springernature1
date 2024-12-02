@@ -223,6 +223,18 @@ header.desktop-menu.desktop-menu2
 {
     border-color:#00b8b0;
 }
+.toggle2
+{
+    display: none;
+}
+.mobile-menu
+{
+    display: none;
+}
+.menu-list2
+{
+    display: none;
+}
 
 /*home banner*/
 
