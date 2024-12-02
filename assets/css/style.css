@@ -506,6 +506,14 @@ section.blog-section
     position: relative;
     overflow: hidden;
 }
+section.blog-section .m20
+{
+    margin:0 0 20px;
+}
+section.blog-section .mt20
+{
+    margin:20px 0 0;
+}
 .blog-column
 {
     display: flex;
@@ -908,4 +916,34 @@ section.product-section .m20
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease;
+}
+.load-button
+{
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+.load-button a
+{
+    border: 1px solid #1B778F;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 13px 55px;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.load-button a:hover
+{
+    background:#1B778F;
+    color:#fff;
+}
+.plusicon
+{
+    font-size: 20px;
+}
+.load-button a i
+{
+    margin-right:5px;
 }
