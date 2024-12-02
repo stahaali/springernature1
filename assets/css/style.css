@@ -115,6 +115,8 @@ header.desktop-menu nav ul li a
 .toggle-menu
 {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 .toggle .menu-list
 {
@@ -198,6 +200,28 @@ header.desktop-menu nav ul li a
     border-top: 1px dashed;
     width: 50px;
     margin: 14px 18px 10px;
+}
+.toggle-menu .menu2 ul li
+{
+    margin-right: 8px;
+}
+.toggle-menu .menu2 ul li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#183642;
+    font-family: 'DaytonaPro-Light';
+    padding: 12px 13px 17px;
+    font-size: 15px;
+}
+.toggle-menu .menu2 ul li a:hover
+{
+    background: #00b8b0;
+    color: #fff;
+}
+header.desktop-menu.desktop-menu2
+{
+    border-color:#00b8b0;
 }
 
 /*home banner*/
@@ -848,6 +872,11 @@ section.product-section
     position: relative;
     background:#ebf1f5;
 }
+section.product-section .subheading
+{
+    border-color: #fff;
+    margin: 0 0;
+}
 section.product-section .m20
 {
     margin:0 0 20px;
@@ -946,4 +975,34 @@ section.product-section .m20
 .load-button a i
 {
     margin-right:5px;
+}
+.mlist ul
+{
+    padding:0px;
+}
+.mlist ul li
+{
+    display: flex;
+    align-items:center;
+    list-style: none;
+    margin-bottom:10px;
+}
+.mlist ul li i
+{
+    background:#ebf1f5;
+    border-radius: 100px;
+    width:30px;
+    max-width:30px;
+    min-width:30px;
+    height:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:10px;
+    color:#486a7e;
+}
+.textinfo
+{
+    color:#486a7e;
+    font-weight: 600;
 }
