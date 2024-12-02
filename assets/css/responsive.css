@@ -34,6 +34,17 @@
         margin: 0 0 14px;
     }
 }
+@media(max-width:992px)
+{
+    .toggle-menu
+    {
+        flex-wrap: wrap;
+    }
+    .toggle-menu .menu2 ul li
+    {
+        width: 100%;
+    }
+}
 @media(max-width:768px)
 {
     section.homebanner .banner-content h1
@@ -60,6 +71,14 @@
 }
 @media(max-width:576px)
 {
+    .toggle-menu
+    {
+        flex-wrap: wrap;
+    }
+    .toggle-menu .menu2 ul li
+    {
+        width: 100%;
+    }
     a.logo img 
     {
         width: 200px;
