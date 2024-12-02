@@ -20,7 +20,8 @@ h1,h2,h3,h4,h5,h6
 }
 p
 {
-    font-family: 'DaytonaPro-Regular';
+    font-family: 'DaytonaPro-Light';
+    color:#444;
 }
 a
 {
@@ -687,7 +688,10 @@ section.social-background .subheading
 .social-icon1txt p
 {
     margin:0px;
-    font-size: 15px;
+    font-size: 16px;
+    font-family: 'DaytonaPro-Regular';
+    font-weight: 600;
+    color: #1B778F;
 }
 .sc-links a
 {
@@ -1017,4 +1021,314 @@ section.product-section .m20
 {
     color:#486a7e;
     font-weight: 600;
+}
+
+/*commonbanner2*/
+
+section.commonbanner.commonbanner2
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/3.jpg') no-repeat;
+    background-size: cover;
+}
+.coreist
+{
+    position: relative;
+}
+.coreist h3
+{
+    margin-bottom:20px;
+    font-size: 23px;
+}
+.coreist:before
+{
+    content:'';
+    position: absolute;
+    left: 2px;
+    top: 40px;
+    width:1px;
+    height: 84%;
+    background:#cedbe0;
+}
+.coreist ul
+{
+    padding: 0px 20px;
+}
+.coreist ul li
+{
+    margin-bottom: 10px;
+    list-style: none;
+}
+.coreist ul li a
+{
+    text-decoration: none;
+    color:#1B778F;
+    font-family: 'DaytonaPro-Light';
+}
+
+/*openaccess-section*/
+
+section.openaccess-section
+{
+    position: relative;
+}
+section.openaccess-section .subheading
+{
+    border-color:#fff;
+    margin-bottom: 15px;
+}
+.openaccess-column
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    background:#025e8d;
+    padding: 20px 20px 30px;
+    border-bottom-left-radius: 20px;
+    transition: 0.3s;
+}
+.openaccess-column h3
+{
+    color:#fff;
+    font-size: 23px;
+}
+.openaccess-column p
+{
+    color:#fff;
+    margin-top: 8px;
+    margin-bottom: 46px;
+}
+section.blog-section .m20
+{
+    margin:0 0 20px;
+}
+.openaccess-column .right-icon i
+{
+    color:#fff;
+    border-color: #fff;
+}
+.openaccess-column:hover .right-icon i
+{
+    background:#fff;
+    color:#1b778f;
+}
+.openaccess-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+.openaccess-wrapper a
+{
+    text-decoration: none;
+    height:100%;
+}
+
+/*researchinitiative-section*/
+
+section.researchinitiative-section
+{
+    position: relative;
+}
+.researchinitiative-wrapper
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    background:#ebf1f5;
+    padding: 20px 20px 30px;
+}
+.researchinitiative-wrapper a
+{ 
+    text-decoration: none;
+    height:100%;
+}
+.researchinitiative-column
+{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+.researchinitiative-column h3
+{
+    color:#444;
+    font-size: 20px;
+}
+.researchinitiative-column p
+{
+    margin-top: 8px;
+    margin-bottom: 46px;
+}
+.researchinitiative-column:hover .right-icon i
+{
+    background:#fff;
+    color:#1b778f;
+}
+
+/*whitepapers-section*/
+
+section.whitepapers-section
+{
+    position: relative;
+}
+.whitepapers-slider .owl-stage
+{
+    display: flex;
+    height:100%;
+}
+.whitepapers-slider .item
+{
+    display: flex;
+    height:100%;
+}
+.whitepapers-column
+{
+    background:#ebf1f5;
+    padding: 20px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+.whitepapers-column h3
+{
+    font-size: 20px;
+}
+.whitepapers-column p
+{
+    margin-top: 8px;
+    margin-bottom: 46px;
+}
+.whitepapers-slider .owl-dots 
+{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.whitepapers-slider .owl-dot
+{
+    border:1px solid #486a7e !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.whitepapers-slider .owl-dot.active 
+{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #486a7e !important;
+}
+
+/*readypublish-section*/
+
+section.readypublish-section
+{
+    position: relative;
+    background:#ebf1f5;
+}
+section.readypublish-section .subheading
+{
+    border-color: #fff;
+}
+.readypublish-column p
+{
+    margin-top: 8px;
+    margin-bottom: 46px;
+}
+.readypublish-slider .owl-stage
+{
+    display: flex;
+    height:100%;
+}
+.readypublish-slider .item
+{
+    display: flex;
+    height:100%;
+}
+.readypublish-column
+{
+    background:#fff;
+    padding: 20px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 24px;
+    transition: 0.3s;
+}
+.readypublish-column:hover .right-icon i
+{
+    background:#1B778F;
+    color:#fff;
+}
+.readypublish-slider .owl-dots 
+{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.readypublish-slider .owl-dot
+{
+    border:1px solid #486a7e !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.readypublish-slider .owl-dot.active 
+{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #486a7e !important;
+}
+.readypublish-slider .right-icon i
+{
+    transform: rotate(313deg);
+}
+.readypublish-logos
+{
+    padding: 5px 0 0;
+}
+.readypublish-logos img
+{
+    max-width: 110px;
+    margin: auto;
+}
+section.bg-white.social-background .socialbg-icon
+{
+    background:#ebf1f5;
+}
+
+/*learnmore-section*/
+
+section.learnmore-section
+{
+    position: relative;
+}
+section.learnmore-section .blog-header img
+{
+    height: 240px;
+    object-fit: cover;
+}
+section.learnmore-section .blog-column
+{
+    background: #fff;
+}
+section.gray-section.blog-section.learnmore-section .subheading
+{
+    border-color: #fff;
+    margin: 0 0 25px;
 }
