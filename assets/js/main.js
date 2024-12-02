@@ -1,10 +1,11 @@
-$('.toggle').click(function()
-{
-    $('.menu-list').toggleClass('show');
-});
 
 $(document).ready(function() 
 {
+    $('.toggle').click(function()
+    {
+        $('.menu-list').toggleClass('show');
+    });
+
     $(".content").hide().slice(0, 3).show();
     $('.minusicon').hide();
     $('.load-button a').click(function(e) {
@@ -25,18 +26,27 @@ $(document).ready(function()
             $(this).html('<i class="fa-solid fa-plus plusicon"></i> Show More');
         }
     });
-});
 
-$('.toggle2').click(function() 
-{
-    $('.collapse-menu2').toggleClass('show');
+    
+    $('.toggle2').click(function() 
+    {
+        $('.collapse-menu2').toggleClass('show');
 
-    if ($('.collapse-menu2').hasClass('show')) 
+        $('.toggle3').toggleClass('show4');
+
+        if ($('.collapse-menu2').hasClass('show')) 
+        {
+            $('.mobile-menu').addClass('fixed-menu');
+        } 
+        else 
+        {
+            $('.mobile-menu').removeClass('fixed-menu');
+        }
+    });
+
+    $('.angledown').click(function()
     {
-        $('.mobile-menu').addClass('fixed-menu');
-    } 
-    else 
-    {
-        $('.mobile-menu').removeClass('fixed-menu');
-    }
+        $('.menu-list2').toggleClass('show2');
+    });
+
 });

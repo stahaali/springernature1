@@ -71,9 +71,45 @@
 }
 @media(max-width:576px)
 {
+    .core-menu 
+    {
+        width: 100%;
+    }
+    .toggle3 
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 3px 16px;
+        border-bottom: 2px solid #00b8b0;
+        display: none;
+    }
+    .toggle3 a
+    {
+        text-decoration: none;
+        text-transform: capitalize;
+        color:#183642;
+    }
+    .toggle3.show4
+    {
+        display: block !important;
+    }
+    .toggle3-list
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
     .menu-list2
     {
         display: block;
+        height:0;
+        overflow: hidden;
+        transition:0.3s;
+    }
+    .menu-list2.show2
+    {
+        height:600px;
     }
     .mobile-menu
     {
