@@ -106,3 +106,11 @@ $('.readypublish-logoslider').owlCarousel({
         }
     }
 });
+
+var player = videojs('my-video');
+player.on('play', function() {
+    var playButton = document.querySelector('.vjs-big-play-button');
+    if (playButton) {
+        playButton.style.display = 'none';
+    }
+});

@@ -1764,9 +1764,37 @@ section.review-contributors .subheading
     transition: 0.3s;
     border-bottom-left-radius: 23px;
     overflow: hidden;
+    margin-top: 0px;
 }
 .contributors-wrapper:hover .right-icon i
 {
     background:#013c5b;
     color:#fff;
+}
+.video-js
+{
+    height: 100% !important;
+    width: 100% !important;
+    overflow: hidden;
+    background: transparent;
+}
+.vjs-poster img 
+{
+    object-fit: cover;
+}
+.video-js .vjs-big-play-button
+{
+    border-radius: 100px;
+    height:70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.vjs-icon-placeholder:before
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
