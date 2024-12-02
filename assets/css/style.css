@@ -1431,6 +1431,7 @@ section.learnpublishing-section
 .learnpublishing-wrapper a
 {
     text-decoration: none;
+    height:100%;
 }
 .learnpublishing-column:hover .right-icon i
 {
@@ -1445,4 +1446,167 @@ section.learnpublishing-section .subheading
 {
     border-color: #fff;
     margin-bottom: 25px;
+}
+.learnpublishing-wrapper 
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/*commonbanner*/
+
+section.commonbanner4
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/5.jpg') no-repeat;
+    background-size: cover;
+}
+section.commonbanner4 .absolute-center
+{
+    top: 77%;
+}
+
+/*editorpublishing-section*/
+
+section.editorpublishing-section
+{
+    position: relative;
+}
+.editors-row .subheading
+{
+    font-size: 23px;
+    color:#444;
+    border-bottom: 0px;
+    margin:0px;
+}
+.editors-column
+{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    background:#ebf1f5;
+    border-bottom-left-radius: 22px;
+}
+.editors-column:hover
+{
+    transition:0.3s;
+}
+.editors-column:hover .right-icon i
+{
+    color:#fff;
+    background:#013c5b;
+}
+.editors-body
+{
+    padding:20px;
+}
+.editors-body h4
+{
+    font-size: 21px;
+}
+.editors-body p
+{
+    margin-bottom: 40px;
+}
+.elist
+{
+    padding:0px;
+}
+.elist li
+{
+    display: flex;
+    list-style: none;
+    margin-bottom:10px;
+    align-items: center;
+    font-family: 'DaytonaPro-Light';
+}
+.elist li i
+{
+    margin-right:10px;
+    color: #486a7e;
+}
+
+/*editorsbrands-section*/
+
+section.editorsbrands-section .subheading
+{
+    border-color:#fff;
+}
+.editorsbrands-column
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0;
+    background: #fff;
+}
+.editorsbrands-column .m20
+{
+    margin:0 0 20px;
+}
+
+/*editorcources-section*/
+
+section.editorcources-section
+{
+    position: relative;
+}
+section.editorcources-section .m20
+{
+    margin:0 0 20px;
+}
+section.editorcources-section .subheading
+{
+    margin: 0 0 20px 10px;
+}
+.editors-column
+{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    background:#ebf1f5;
+    border-bottom-left-radius: 22px;
+}
+.editors-column:hover
+{
+    transition:0.3s;
+}
+.editors-column:hover .right-icon i
+{
+    color:#fff;
+    background:#013c5b;
+}
+.editors-body
+{
+    padding:20px;
+}
+.editors-body h4
+{
+    font-size: 21px;
+}
+.editors-body p
+{
+    margin-bottom: 23px;
+}
+section.editorcources-section .editors-column.editors-column2
+{
+    background:#025e8d;
+}
+section.editorcources-section .editors-column.editors-column2 h4
+{
+    color:#fff;
+}
+section.editorcources-section .editors-column.editors-column2 p
+{
+    color:#fff;
+    margin-top: 20px;
+}
+section.editorcources-section .lasticon
+{
+    color:#fff;
+    border-color:#fff;
 }
