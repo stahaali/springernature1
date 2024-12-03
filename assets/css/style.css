@@ -998,6 +998,7 @@ section.product-section .m20
     align-items: center;
     justify-content: center;
     color: #1B778F;
+    text-transform: capitalize;
 }
 .load-button a:hover
 {
