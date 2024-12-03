@@ -154,7 +154,7 @@
     {
         display:block;
     }
-    .core-menu 
+    /* .core-menu 
     {
         width: 100%;
     }
@@ -272,7 +272,7 @@
         display: block;
         height: 0;
         overflow: hidden;
-    }
+    } */
     section.homebanner
     {
         height: 550px;
