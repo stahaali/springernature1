@@ -142,7 +142,9 @@
     }
     header.desktop-menu nav ul li a:hover
     {
-        display: none;
+        /* display: none; */
+        background: transparent;
+        color: #444;
     }
     header.desktop-menu nav .collapse-menu
     {
