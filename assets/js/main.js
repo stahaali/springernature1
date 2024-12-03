@@ -1,6 +1,12 @@
 
 $(document).ready(function() 
 {
+
+    $('.toggle4').click(function()
+    {
+        $('.collapse-menu').toggleClass('show4');
+    });
+
     $('.toggle').click(function()
     {
         $('.menu-list').toggleClass('show');
@@ -104,13 +110,5 @@ $('.readypublish-logoslider').owlCarousel({
         1000:{
             items:4,
         }
-    }
-});
-
-var player = videojs('my-video');
-player.on('play', function() {
-    var playButton = document.querySelector('.vjs-big-play-button');
-    if (playButton) {
-        playButton.style.display = 'none';
     }
 });

@@ -34,8 +34,48 @@
         margin: 0 0 14px;
     }
 }
+@media(max-width:1024px)
+{
+    header.desktop-menu nav ul li a
+    {
+        font-size: 14px;
+        padding: 7px 7px;
+    }
+    a.logo img 
+    {
+        width: 160px;
+    }
+}
 @media(max-width:768px)
 {
+    header.desktop-menu nav ul
+    {
+        padding:0px;
+        margin-top:10px;
+    }
+    header.desktop-menu nav ul li
+    {
+        width: 100%;
+        margin-bottom:10px;
+    }
+    header.desktop-menu nav ul li a
+    {
+        padding:0px;
+    }
+    header.desktop-menu nav .collapse-menu
+    {
+        height:0;
+        transition: 0.3s;
+        overflow: hidden;
+    }
+    header.desktop-menu nav .collapse-menu.show4
+    {
+        height:200px;
+    }
+    .toggle4
+    {
+        display:block;
+    }
     section.homebanner .banner-content h1
     {
         font-size: 40px;
@@ -79,9 +119,41 @@
     {
         margin:0 0 20px 0;
     }
+    .advancediscovery-details p
+    {
+        font-size: 20px;
+    }
 }
 @media(max-width:576px)
 {
+    header.desktop-menu nav ul
+    {
+        padding:0px;
+        margin-top:10px;
+    }
+    header.desktop-menu nav ul li
+    {
+        width: 100%;
+        margin-bottom:10px;
+    }
+    header.desktop-menu nav ul li a
+    {
+        padding:0px;
+    }
+    header.desktop-menu nav .collapse-menu
+    {
+        height:0;
+        transition: 0.3s;
+        overflow: hidden;
+    }
+    header.desktop-menu nav .collapse-menu.show4
+    {
+        height:200px;
+    }
+    .toggle4
+    {
+        display:block;
+    }
     .core-menu 
     {
         width: 100%;
@@ -258,5 +330,9 @@
     section.booksale-section .m20
     {
         margin:0 0 20px 0;
+    }
+    .advancediscovery-details p
+    {
+        font-size: 16px;
     }
 }
