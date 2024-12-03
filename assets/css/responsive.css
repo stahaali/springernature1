@@ -140,6 +140,10 @@
     {
         padding:0px;
     }
+    header.desktop-menu nav ul li a:hover
+    {
+        display: none;
+    }
     header.desktop-menu nav .collapse-menu
     {
         height:0;
