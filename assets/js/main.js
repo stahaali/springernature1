@@ -114,3 +114,15 @@ $('.readypublish-logoslider').owlCarousel({
         }
     }
 });
+
+$('.homeslider').owlCarousel({
+    loop: true,
+    slideSpeed: 300,
+    paginationSpeed: 400,
+    items: 1,
+    dots: false,   
+    nav: true,
+    animateOut: 'fadeOut',  
+    animateIn: 'fadeIn',    
+    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+});

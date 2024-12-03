@@ -295,12 +295,65 @@ section.homebanner
     padding:13px 20px;
     text-decoration: none;
 }
+section.homebanner2
+{
+    position: relative;
+    height:673px;
+    background: #0094b3;
+    background-size: cover;
+    overflow: hidden;
+}
+section.homebanner2 .homeslider
+{
+    padding:0px;
+}
+section.homebanner2 .homeslider .owl-nav
+{
+    position: absolute;
+    left:50%;
+    top: 38%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+section.homebanner2 .homeslider .owl-prev
+{
+    width:40px;
+    height:40px;
+    border: 2px solid #fff;
+    background:rgba(255,255,255,0.5);
+    border-radius: 100px;
+}
+section.homebanner2 .homeslider .owl-next
+{
+    width:40px;
+    height:40px;
+    border: 2px solid #fff;
+    background:rgba(255,255,255,0.5);
+    border-radius: 100px;
+}
+section.homebanner2 .homeslider .owl-nav i
+{
+    color:#fff;
+}
 
 /*white-section*/
 
 section.white-section
 {
     position: relative;
+}
+.column-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height:100%;  
+}
+.column-wrapper a
+{
+    text-decoration: none;
+    height:100%;  
 }
 .column
 {
@@ -894,6 +947,10 @@ section.explorebrands-section
 .explorebrands-column
 {
     margin-bottom:20px;
+}
+.explorebrands-column img
+{
+    max-width: 170px;
 }
 section.explorebrands-section .subheading
 {
@@ -2497,4 +2554,211 @@ section.keybrands-section .m20
 .keybrands-body
 {
     padding: 15px 22px 61px;
+}
+
+/*bg-section1*/
+
+section.bg-section1
+{
+    position: relative;
+    background:url('../images/banner/9.jpg') no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+section.bg-section1 .absolute-center2
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 78%;
+}
+section.bg-section1 .bgsection1-details h3
+{
+    color: #fff;
+    width: fit-content;
+    background: #1B778F;
+    padding:10px 10px;
+    text-transform: capitalize;
+    font-size: 43px;
+}
+section.bg-section1 .bgsection1-details p
+{
+    color: #fff;
+    width: fit-content;
+    background: #1B778F;
+    padding:10px 10px;
+    text-transform: capitalize;
+}
+.border-button1
+{
+    margin-top:15px;
+}
+.border-button1 a
+{
+    transition: 0.3s;
+    text-decoration: none;
+    padding:10px 20px;
+    border:1px solid;
+    border-radius: 6px;
+    border-color: #1B778F;
+    color:#1B778F;
+}
+.border-button1 a:hover
+{
+    background:#1B778F;
+    color:#fff;
+}
+
+/*bg-section2*/
+
+section.bg-section2
+{
+    position: relative;
+    background:url('../images/banner/10.jpg') no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+section.bg-section2 .absolute-center2
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 78%;
+}
+section.bg-section2 .bgsection1-details h3
+{
+    color: #fff;
+    width: fit-content;
+    background: #578319;
+    padding:10px 10px;
+    text-transform: capitalize;
+    font-size: 43px;
+}
+section.bg-section2 .bgsection1-details p
+{
+    color: #fff;
+    width: fit-content;
+    background: #578319;
+    padding:10px 10px;
+    text-transform: capitalize;
+}
+.border-button1.border-button2 a
+{
+    border-color: #578319;
+    color:#578319;
+}
+.border-button1.border-button2 a:hover
+{
+    background:#578319;
+    color:#fff;
+}
+
+/*bg-section3*/
+
+section.bg-section3
+{
+    position: relative;
+    background:url('../images/banner/11.jpg') no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+section.bg-section3 .absolute-center2
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 78%;
+}
+section.bg-section3 .bgsection1-details h3
+{
+    color: #fff;
+    width: fit-content;
+    background: #1B778F;
+    padding:10px 10px;
+    text-transform: capitalize;
+    font-size: 43px;
+}
+section.bg-section3 .bgsection1-details p
+{
+    color: #fff;
+    width: fit-content;
+    background: #1B778F;
+    padding:10px 10px;
+    text-transform: capitalize;
+}
+
+/*bluebrand-section*/
+
+section.bluebrand-section .subheading
+{
+    border-color: #fff;
+}
+
+/*press-section*/
+
+section.press-section
+{
+    position: relative;
+    border-bottom-left-radius: 10px;
+}
+.press-wrapper
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0;
+    border-bottom-left-radius: 23px;
+    overflow: hidden;
+    transition: 0.3s;
+    margin-bottom:20px;
+}
+.press-wrapper a
+{
+    text-decoration: none;
+    height:100%;
+}
+.press-wrapper .right-icon
+{
+    right:35px;
+}
+.press-wrapper:hover .right-icon i
+{
+    border-color: #1B778F;
+    background:#1B778F;
+    color: #fff;
+}
+.press-column
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    background:#ebf1f5;
+    width: 100%;
+    padding: 20px 20px 53px;
+    border-bottom-left-radius: 23px;
+}
+section.press-section .links-buttonflex .links-button
+{
+    margin-bottom:10px;
+}
+.press-column h3
+{
+    color:#1B778F;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+.press-column p
+{
+    margin-bottom: 11px;
+}
+
+/*commonbanne6*/
+
+section.commonbanner6
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/14.png') no-repeat;
+    background-size: cover;
 }
