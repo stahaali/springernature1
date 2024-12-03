@@ -45,6 +45,57 @@
     {
         width: 160px;
     }
+    section.commonbanner2 .absolute-center 
+    {
+        top: 82%;
+    }
+    .vjs-poster
+    {
+        width: fit-content;
+    }
+    .vjs-big-play-button
+    {
+        width: 50px !important;
+        height: 50px !important;     
+    }
+    .vjs-big-play-button:before
+    {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .video-js
+    {
+        height: fit-content;
+    }
+    .video-js .vjs-control-bar 
+    {
+        bottom: -2px;
+    }
+    .social-icon1txt p
+    {
+        font-size: 13px;
+    }
+    .trainingtutorial-column h4
+    {
+        font-size: 16px;
+    }
+    .trainingtutorial-column p
+    {
+        font-size: 13px;
+    }
+    .bloglist ul li a
+    {
+        font-size: 13px;
+    }
+    section.learnpublishing-section .col-md-6
+    {
+        width:50%;
+    }
+    section.learnpublishing-section .m20
+    {
+        margin-bottom: 20px;
+    }
 }
 @media(max-width:768px)
 {
@@ -71,6 +122,12 @@
     header.desktop-menu nav .collapse-menu.show4
     {
         height:200px;
+    }
+    header.desktop-menu nav ul li a:hover
+    {
+        /* display: none; */
+        background: transparent;
+        color: #444;
     }
     .toggle4
     {
@@ -122,6 +179,49 @@
     .advancediscovery-details p
     {
         font-size: 20px;
+    }
+    .social-icon1txt p
+    {
+        font-size: 14px;
+    }
+    .editors-row .subheading
+    {
+        padding-left:0px;
+    }
+    .contributors-column h3
+    {
+        font-size: 18px;
+    }
+    .vjs-poster
+    {
+        width: fit-content;
+    }
+    .vjs-big-play-button
+    {
+        width: 50px !important;
+        height: 50px !important;     
+    }
+    .vjs-big-play-button:before
+    {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .video-js
+    {
+        height: fit-content;
+    }
+    .video-js .vjs-control-bar 
+    {
+        bottom: -2px;
+    }
+    .bloglist ul li a
+    {
+        font-size: 13px;
+    }
+    section.learnpublishing-section .m20
+    {
+        margin-bottom: 20px;
     }
 }
 @media(max-width:576px)
@@ -288,6 +388,13 @@
     {
         font-size: 31px;
     }
+    section.commonbanner2 .absolute-center {
+        top: 78%;
+    }
+    .pt0
+    {
+        padding-top:0;
+    }
     .subheading
     {
         width:100%;
@@ -340,5 +447,21 @@
     .advancediscovery-details p
     {
         font-size: 16px;
+    }
+    section.learnpublishing-section .m20
+    {
+        margin-bottom: 20px;
+    }
+    .learnpublishing-column
+    {
+        padding: 20px 20px 55px 20px;
+    }
+    .learnpublishing-column p
+    {
+        font-size: 16px;
+    }
+    .subheading
+    {
+        font-size: 17px;
     }
 }
