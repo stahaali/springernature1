@@ -1799,3 +1799,398 @@ section.review-contributors .subheading
     align-items: center;
     justify-content: center;
 }
+
+/*commonbanner5*/
+
+section.commonbanner5
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/7.jpg') no-repeat;
+    background-size: cover;
+}
+section.commonbanner5 .absolute-center
+{
+    top: 77%;
+}
+header.desktop-menu.desktop-menu2.border-bottom1
+{
+    border-color:#578319;
+}
+.buttonlinks
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 15px;
+}
+.buttonlinks .button011
+{
+    margin-bottom: 30px;
+    margin-right:12px;
+}
+.buttonlinks .button011 a
+{
+    padding:10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 10px;
+    border:1px solid;
+    border-color: #1B778F;
+    color: #1B778F;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.buttonlinks .button011 a:hover
+{
+    background: #1B778F;
+    color:#fff;
+}
+.buttonlinks .button021
+{
+    margin-bottom: 30px;
+    margin-right:12px;
+}
+.buttonlinks .button021 a
+{
+    padding:10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 10px;
+    border:1px solid;
+    border-color: #C75301;
+    color: #C75301;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.buttonlinks .button021 a:hover
+{
+    background: #C75301;
+    color:#fff;
+}
+.buttonlinks .button033
+{
+    margin-bottom: 30px;
+    margin-right:12px;
+}
+.buttonlinks .button033 a
+{
+    padding:10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 10px;
+    border:1px solid;
+    border-color: #578319;
+    color: #578319;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.buttonlinks .button033 a:hover
+{
+    background: #578319;
+    color:#fff;
+}
+.buttonlinks .button044
+{
+    margin-bottom: 30px;
+    margin-right:12px;
+}
+.buttonlinks .button044 a
+{
+    padding:10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 10px;
+    border:1px solid;
+    border-color: #C75301;
+    color: #C75301;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.buttonlinks .button044 a:hover
+{
+    background: #C75301;
+    color:#fff;
+}
+.buttonlinks .button055
+{
+    margin-bottom: 30px;
+    margin-right:12px;
+}
+.buttonlinks .button055 a
+{
+    padding:10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 10px;
+    border:1px solid;
+    border-color: #1B778F;
+    color: #1B778F;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.buttonlinks .button055 a:hover
+{
+    background: #1B778F;
+    color:#fff;
+}
+.buttonlinks .button066
+{
+    margin-bottom: 30px;
+    margin-right:12px;
+}
+.buttonlinks .button066 a
+{
+    padding:10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 10px;
+    border:1px solid;
+    border-color: #578319;
+    color: #578319;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.buttonlinks .button066 a:hover
+{
+    background: #578319;
+    color:#fff;
+}
+.buttonlinks .button077
+{
+    margin-bottom: 30px;
+    margin-right:12px;
+}
+.buttonlinks .button077 a
+{
+    padding:10px 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 10px;
+    border:1px solid;
+    border-color: #C75301;
+    color: #C75301;
+    transition: 0.3s;
+}
+.buttonlinks .button077 a:hover
+{
+    background: #C75301;
+    color:#fff;
+}
+
+/*booksale-section*/
+
+section.booksale-section
+{
+    position: relative;
+}
+section.booksale-section .subheading
+{
+    border-color: #fff;
+}
+.booksale-column
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+.booksale-column h4
+{
+    color: #fff;
+    font-size: 21px;
+    margin-bottom: 17px;
+}
+.booksale-column
+{
+    padding: 20px 20px 50px;
+}
+.booksale-column p
+{
+    margin-bottom:0px;
+    color: #fff;
+}
+.booksale-wrapper a
+{
+    height:100%;
+    text-decoration: none;
+}
+.booksale-wrapper 
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    transition: 0.3s;
+    border-bottom-left-radius: 23px;
+    overflow: hidden;
+    margin-top: 0px;
+}
+.booksale-wrapper .right-icon i
+{
+    border-color: #fff;
+    background:transparent;
+    color:#fff;
+}
+.booksale-wrapper:hover .right-icon i
+{
+    background:#fff;
+    color:#013c5b;
+}
+.background-purple
+{
+    background:rgb(120, 91, 167);
+}
+
+/*booksreview-section*/
+
+section.booksreview-section
+{
+    position: relative;
+}
+section.booksreview-section .subheading
+{
+    border-color: #ebf1f5;
+}
+.booksreview-column
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+.booksreview-column h3
+{
+    color: #444;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+.booksreview-column
+{
+    padding: 20px 20px 50px;
+}
+.booksreview-column p
+{
+    margin-bottom:0px;
+    color: #444
+}
+.booksreview-wrapper a
+{
+    height:100%;
+    text-decoration: none;
+}
+.booksreview-wrapper 
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    transition: 0.3s;
+    border-bottom-left-radius: 23px;
+    overflow: hidden;
+    margin-top: 0px;
+}
+.booksreview-wrapper .right-icon i
+{
+    border-color: #013c5b;
+    background:transparent;
+    color:#013c5b;
+}
+.booksreview-wrapper:hover .right-icon i
+{
+    background:#013c5b;
+    color:#fff;
+}
+.booksreview-column img
+{
+    margin:auto;
+    max-width: 150px;
+}
+
+/*scholarlysale-section*/
+
+section.booksreview-section
+{
+    position: relative;
+}
+section.scholarlysale-section .subheading
+{
+    border-color: #fff;
+}
+.scholarlysale-column
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+.scholarlysale-column h3
+{
+    color: #444;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+.scholarlysale-column
+{
+    padding: 20px 20px 50px;
+}
+.scholarlysale-column p
+{
+    margin-bottom:0px;
+    color: #444
+}
+.scholarlysale-wrapper a
+{
+    height:100%;
+    text-decoration: none;
+}
+.scholarlysale-wrapper 
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    transition: 0.3s;
+    border-bottom-left-radius: 23px;
+    overflow: hidden;
+    margin-top: 0px;
+    background: #fff;
+}
+.scholarlysale-wrapper .right-icon i
+{
+    border-color: #013c5b;
+    background:transparent;
+    color:#013c5b;
+}
+.scholarlysale-wrapper:hover .right-icon i
+{
+    background:#013c5b;
+    color:#fff;
+}
+.scholarlysale-column img
+{
+    margin:auto;
+    max-width: 150px;
+}
+.bkslist ul
+{
+    padding:0px;
+}
+.bkslist ul li
+{
+    display: flex;
+    list-style: none;
+    margin-bottom:10px;
+}
+.bkslist ul li i
+{
+    color:#013c5b;
+    width:30px;
+    height:30px;
+    background:#ebf1f5;
+    margin-right:7px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
