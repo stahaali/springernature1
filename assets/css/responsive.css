@@ -24,6 +24,19 @@
 }
 @media(max-width:1536px)
 {
+    a.logo img 
+    {
+        width: 230px;
+    }
+    header.desktop-menu nav ul li
+    {
+        margin-right:3px;
+    }
+    header.desktop-menu nav ul li a
+    {
+        font-size: 14px;
+        padding: 9px 9px;
+    }
     .subheading
     {
         width: 100%;
