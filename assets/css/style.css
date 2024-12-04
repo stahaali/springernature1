@@ -512,6 +512,17 @@ section.initiative-section
     position: relative;
     overflow: hidden;
 }
+.initiative-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.initiative-wrapper a
+{
+    text-decoration: none;
+    height:100%;
+}
 .initiative-column
 {
     display: flex;
@@ -737,6 +748,8 @@ section.social-background .subheading
     justify-content: center;
     height:100%;
     background:#fff;
+    border-bottom-left-radius: 13px;
+    overflow: hidden;
 }
 .socialbg-icon i
 {
@@ -3057,4 +3070,66 @@ section.contactblog-section .explorebrands-column img
 {
     width: 80px;
     margin: 20px auto 26px;
+}
+
+/*commonbanner2*/
+
+section.commonbanner.commonbanner9
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/17.jpg') no-repeat;
+    background-size: cover;
+}
+section.commonbanner9 .absolute-center
+{
+    top:84%;
+}
+.rdynetwork-wrapper
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow:hidden;
+    border-bottom-left-radius: 23px;
+    background:#ebf1f5;
+}
+.rdynetwork-wrapper .right-icon i
+{
+    transition: 0.3s;
+}
+.rdynetwork-wrapper:hover .right-icon i
+{
+    background: #fff;
+}
+.rdynetwork-wrapper a
+{
+    height: 100%;
+    text-decoration: none;
+}
+.rdynetwork-column
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.rdynetwork-header img
+{
+    width: 100%;
+    height:240px;
+    object-fit: cover;
+}
+.rdynetwork-body
+{
+    padding: 20px 20px 50px;
+}
+.rdynetwork-body h3
+{
+    font-size: 20px;
+    color:#444;
+}
+.textbig
+{
+    font-size: 17px;
 }
