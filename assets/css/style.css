@@ -2111,10 +2111,6 @@ section.booksale-section
 {
     position: relative;
 }
-section.booksale-section .subheading
-{
-    border-color: #fff;
-}
 .booksale-column
 {
     position: relative;
@@ -2761,4 +2757,304 @@ section.commonbanner6
     height: 422px;
     background:url('../images/banner/14.png') no-repeat;
     background-size: cover;
+}
+
+/*commonbanne7*/
+
+section.commonbanner7
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/15.jpg') no-repeat;
+    background-size: cover;
+}
+section.commonbanner7 .absolute-center
+{
+    top:84%;
+}
+.call-icon i
+{
+    background:#cedbe0;
+    border-bottom-left-radius: 23px;
+    padding: 25px 25px;
+    color: #013c5b;
+    font-size: 20px;
+}
+.call-wrapper
+{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+}
+.call-wrapper a
+{
+    text-decoration: none;
+    height:100%;
+}
+.call-column
+{
+    display: flex;
+    height:100%;
+}
+.call-column .text
+{
+    margin-left:10px;
+}
+.call-column .text h4
+{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #013c5b;
+    margin-bottom: 0px;
+}
+.border-white
+{
+    border-color: #fff;
+}
+.border-blue1
+{
+    border-color: #dfedf2;
+}
+
+/*academiclicense-section*/
+
+section.academiclicense-section .m20
+{
+    margin:0 0 20px 0;
+}
+
+.academic-wrapper
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    background:#ebf1f5;
+    border-bottom-left-radius: 23px;
+    overflow: hidden;
+}
+.academic-wrapper a
+{ 
+    text-decoration: none;
+    height:100%;
+}
+.academic-column
+{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    padding: 20px 20px 15px;
+}
+.academic-column h3
+{
+    margin-top: 8px;
+    font-size: 22px;
+    margin-bottom: 46px;
+    color:#fff;
+}
+.academic-column .right-icon i
+{
+    border-color: #fff;
+    color:#fff;
+}
+.academic-column:hover .right-icon i
+{
+    background:#fff;
+    color:#1b778f;
+}
+.backgrdound-blue2
+{
+    background:rgb(0, 136, 204);
+}
+
+/*corporatehealth-section*/
+
+section.corporatehealth-section
+{
+    position: relative;
+}
+section.corporatehealth-section .m20
+{
+    margin: 0 0 20px 0;
+}
+.background-cgreen
+{
+    background:rgb(0, 115, 115);
+}
+.licence-wcon
+{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    transition: 0.3s;
+    border-bottom-left-radius: 23px;
+    overflow: hidden;
+}
+.licence-wcon:hover .license-icn i
+{
+    background:#fff;
+    border:2px solid #fff;
+    color:#486a7e;
+}
+.licence-wcon a
+{
+    height:100%;
+    text-decoration: none;
+}
+.license-icon
+{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    align-items: center;
+    background:#025e8d;
+    padding: 20px 0 11px;
+}
+.license-icon p
+{
+    color:#fff;
+    font-size: 20px;
+    font-family: 'DaytonaPro-Regular';
+}
+.license-icon img
+{
+    max-width: 100px;
+    margin: auto;
+}
+.license-footer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+}
+.license-icn i
+{
+    width: 30px;
+    height: 30px;
+    background:#025e8d;
+    border:2px solid #fff;
+    color:#fff;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+/*commonbanner8*/
+
+section.commonbanner.commonbanner8
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/16.jpg') no-repeat;
+    background-size: cover;
+}
+section.commonbanner.commonbanner8 .absolute-center
+{
+    top:84%;
+}
+.background-orange
+{
+    background: rgb(199, 83, 1);
+}
+.background-blue3
+{
+    background: rgb(72, 106, 126);
+}
+
+/*contactblog-section*/
+
+section.contactblog-section
+{
+    position: relative;
+    padding-bottom: 18px;
+}
+section.contactblog-section .subheading3
+{
+    margin:0px;
+}
+section.contactblog-section .m20
+{
+    margin:0 0 20px 0;
+}
+.contactblog-logo
+{
+    max-width: 200px;
+}
+.contactblog-section .buttonlinks .border-button1
+{
+    margin-right:13px;
+}
+section.contactblog-section .explorebrands-column
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+section.contactblog-section .explorebrands-column img
+{
+    max-width: 120px;
+    height: 48px;
+    object-fit: contain;
+    margin-bottom:20px;
+}
+.text-box
+{
+    display: flex;
+    align-items: baseline;
+}
+.text-box i
+{
+    color:#486a7e;
+    font-size: 20px;
+}
+.text-box p
+{
+    font-style: italic;
+    margin-left:10px;
+    font-size: 20px;
+}
+.itemwrapper
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #ebf1f5;
+    overflow: hidden;
+    border-bottom-left-radius: 23px;
+}
+.itemwrapper .right-icon i
+{
+    transition: 0.3s;
+}
+.itemwrapper:hover .right-icon i
+{
+    background:#fff;
+}
+.itemwrapper a
+{
+    text-decoration: none;
+    height: 100%;
+}
+.item-list
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px 20px 30px;
+}
+.item-list h3
+{
+    color:#444;
+    font-size: 20px;
+    margin-bottom:25px;
+}
+.item-list img
+{
+    width: 80px;
+    margin: 20px auto 26px;
 }
