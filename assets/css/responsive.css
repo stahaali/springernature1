@@ -34,6 +34,22 @@
         margin: 0 0 14px;
     }
 }
+@media(max-width:1366px)
+{
+    a.logo img 
+    {
+        width: 230px;
+    }
+    header.desktop-menu nav ul li
+    {
+        margin-right:3px;
+    }
+    header.desktop-menu nav ul li a
+    {
+        font-size: 14px;
+        padding: 9px 9px;
+    }
+}
 @media(max-width:1024px)
 {
     header.desktop-menu nav ul li a
