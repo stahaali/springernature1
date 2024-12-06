@@ -3133,3 +3133,73 @@ section.commonbanner9 .absolute-center
 {
     font-size: 17px;
 }
+
+/*commonbanner10*/
+
+section.commonbanner.commonbanner10
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/18.jpg') no-repeat;
+    background-size: cover;
+}
+section.commonbanner10 .absolute-center
+{
+    top: 76%;
+}
+.coreist.coreist2:before
+{
+    top: 74px;
+}
+.sdg-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background:#fff;
+    border-bottom-left-radius: 23px;
+    overflow: hidden;
+    position: relative;
+}
+.sdg-wrapper:hover .right-icon i
+{
+    transition: 0.3s;
+    background:#013c5b;
+    color:#fff;
+}
+.sdg-wrapper a
+{
+    height: 100%;
+    text-decoration: none;
+}
+.sdg-column
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.sdg-body
+{
+    padding: 10px 16px 52px;
+}
+.sdg-body p
+{
+    font-size: 20px;
+    color:#444;
+    font-weight: 600;
+}
+
+/*commonbanner11*/
+
+section.commonbanner.commonbanner11
+{
+    position: relative;
+    height: 422px;
+    background:url('../images/banner/19.jpg') no-repeat;
+    background-size: cover;
+}
+section.commonbanner11 .absolute-center
+{
+    top: 76%;
+}
